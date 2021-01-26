@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Quicksand;
+  font-weight: bold;
+
+  background: linear-gradient(180deg, #394253 0%, #181c27 147.23%);
+  color: rgba(255, 255, 255, 0.65);
+  margin: 60px 24px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.btn {
+  width: 60px;
+  cursor: pointer;
+  margin-top: 90px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(331.93deg, #1d222e 11.88%, #293140 85.18%);
+  box-shadow: -10px -10px 20px rgba(57, 66, 83, 0.35), 10px 10px 20px rgba(24, 28, 39, 0.35);
+  border: 0;
+  &:active {
+    background: linear-gradient(137.81deg, #1d222e 21.35%, #293140 106.56%);
+    box-shadow: -5px -5px 10px rgba(72, 80, 99, 0.1), 5px 5px 10px rgba(24, 28, 39, 0.35),
+      inset -2px -2px 4px rgba(72, 80, 99, 0.35), inset 5px 5px 5px #1d222e;
+    border: 3px solid rgba(41, 49, 64, 0.65);
+  }
+}
+
+.paragraph {
+  margin-top: 14px;
+}
+
+.transform {
+  margin-top: 55px;
+  &__field {
+    display: flex;
+    flex-direction: column;
+  }
+  &__box {
+    background: #313949;
+    margin-top: 14px;
+    height: 76px;
+    font-size: 36px;
+    font-weight: inherit;
+    padding: 16px 26px;
+    color: inherit;
+    border: 1px solid #313949;
+    box-shadow: inset -5px -5px 10px rgba(64, 75, 95, 0.25), inset 5px 5px 10px #2c3341;
+    border-radius: 12px;
+    overflow: auto hidden;
+  }
+  &__p {
+    margin-top: 42px;
+  }
+}
