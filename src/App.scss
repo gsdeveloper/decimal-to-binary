@@ -9,10 +9,13 @@
 body {
   font-family: Quicksand;
   font-weight: bold;
-
-  background: linear-gradient(180deg, #394253 0%, #181c27 147.23%);
   color: rgba(255, 255, 255, 0.65);
-  margin: 60px 24px;
+  margin: 60px 24px 48px;
+  background: linear-gradient(180deg, #394253 0%, #181c27 147.23%);
+  background-attachment: fixed;
+  @media (max-width: 425px) {
+    margin: 32px 24px 48px;
+  }
 }
 
 .title {
@@ -22,7 +25,6 @@ body {
 .btn {
   width: 60px;
   cursor: pointer;
-  margin-top: 90px;
   height: 60px;
   border-radius: 50%;
   background: linear-gradient(331.93deg, #1d222e 11.88%, #293140 85.18%);
@@ -34,14 +36,19 @@ body {
       inset -2px -2px 4px rgba(72, 80, 99, 0.35), inset 5px 5px 5px #1d222e;
     border: 3px solid rgba(41, 49, 64, 0.65);
   }
+  margin-top: 40px;
 }
 
 .paragraph {
   margin-top: 14px;
+  @media (max-width: 425px) {
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
 
 .transform {
-  margin-top: 55px;
+  margin-top: 46px;
   &__field {
     display: flex;
     flex-direction: column;
@@ -58,8 +65,16 @@ body {
     box-shadow: inset -5px -5px 10px rgba(64, 75, 95, 0.25), inset 5px 5px 10px #2c3341;
     border-radius: 12px;
     overflow: auto hidden;
+    @media (max-width: 425px) {
+      height: 65px;
+      font-size: 32px;
+    }
   }
   &__p {
     margin-top: 42px;
+  }
+  &__error {
+    margin-top: 18px;
+    color: #c5640e;
   }
 }

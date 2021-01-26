@@ -6,23 +6,34 @@ const App = () => {
   const [input, setInput] = useState('');
   const [isDecimal, setIsDecimal] = useState(true);
 
-  const result = () => {
+  const resultError = () => {
     let textResult: string | number = '';
     if (isDecimal) {
-      if (/^[\d\s]+$/.test(input)) {
-        textResult = Binary(input.split(' ').join(''));
-      } else {
+      if (!/^[\d\s]+$/.test(input)) {
         textResult = 'Enter a decimal number';
       }
     } else {
-      if (/^[01\s]+$/.test(input)) {
-        textResult = Decimal(input.split(' ').join(''));
-      } else {
+      if (!/^[01\s]+$/.test(input)) {
         textResult = 'Enter a binary number';
       }
     }
     return textResult;
   };
+
+  const result = () => {
+    let textResult: string | number = '';
+    if (isDecimal) {
+      if (/^[\d\s]+$/.test(input)) {
+        textResult = Binary(input.split(' ').join(''));
+      }
+    } else {
+      if (/^[01\s]+$/.test(input)) {
+        textResult = Decimal(input.split(' ').join(''));
+      }
+    }
+    return textResult;
+  };
+
   return (
     <div className="app">
       <h1 className="title">Hi,</h1>
@@ -41,6 +52,7 @@ const App = () => {
           <div className="transform__box" data-testid="value">
             {result()}
           </div>
+          <p className="transform__error">{resultError()}</p>
         </div>
       </div>
       <button
