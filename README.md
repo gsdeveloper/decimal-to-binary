@@ -2,7 +2,7 @@
 <img width="300" src="https://i.ibb.co/br7kmSv/localhost-3000.png" alt="demo" />
 </p>
 <h2 align="center">
-  🎯 <a href="https://gsdeveloper.github.io/decimal-to-binary">Decimal-to-binary</a> 🎯
+ <a href="https://gsdeveloper.github.io/decimal-to-binary">Decimal-to-binary</a> 
 </h2>
 <h3 align="center">
   Easily convert decimal to binary or vice-versa
