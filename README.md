@@ -27,8 +27,9 @@
 
 ## 🖥 How it works
 
-For converting decimal to binary it uses toString(2). We just need to specify the base (which in this case is 2) and our number is converted. 
-For binary to decimal it's done by parseInt(binaryString, 2). It converts the string with the base specified on the second parameter to a number.
+For converting decimal to binary it uses toString(2). We just need to specify the base (which in this case is 2).
+<br />
+For binary to decimal it's done by parseInt(binaryString, 2). It converts the string (acknowledging it's base specified in the second parameter) to a number.
 
 ---
 
