@@ -1,13 +1,53 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<p align="center">
+<img width="300" src="https://i.ibb.co/br7kmSv/localhost-3000.png" alt="demo" />
+</p>
+<h2 align="center">
+  🎯 <a href="https://gsdeveloper.github.io/decimal-to-binary">Decimal-to-binary</a> 🎯
+</h2>
+<h3 align="center">
+  Easily convert decimal to binary or vice-versa
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<a href="https://www.figma.com/file/FZ0N0P3fJl8uvImZhlfZNw/Dark-Neumorphism-UI-Bitcoin-calculator-Community?node-id=3%3A1">
+<img alt="figma badge" src="https://img.shields.io/badge/Figma%20prototype%20-Figma-%2304D361">
+</a>
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gsdeveloper/decimal-to-binary">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/gsdeveloper/decimal-to-binary">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gsdeveloper/decimal-to-binary">
+<img alt="GitHub" src="https://img.shields.io/github/license/gsdeveloper/decimal-to-binary">
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/gsdeveloper/decimal-to-binary">
+<img alt="React" src="https://img.shields.io/badge/React-JS-blue">
+</p>
 
-## Available Scripts
+<br>
+
+
+---
+
+## 🖥 How it works
+
+For converting decimal to binary it uses toString(2). We just need to specify the base (which in this case is 2) and our number is converted. 
+For binary to decimal it's done by parseInt(binaryString, 2). It converts the string with the base specified on the second parameter to a number.
+
+---
+
+## 🛠 Tech Stack
+
+- **[React](https://github.com/facebook/react)**
+- **[Sass](https://github.com/sass/sass)**
+- **[React-Testing-Library](https://github.com/testing-library/react-testing-library)**
+- **[Jest](https://github.com/facebook/jest)**
+- **[TypeScript](https://github.com/microsoft/TypeScript)**
+- **[eslint](https://github.com/eslint/eslint)**
+
+---
+
+## 🚀 Running locally
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -15,37 +55,28 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="gsdeveloper.github.io">
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/49620737?s=460&u=affe940c45f9f14f3d456561e49e34d64e5b2078&v=4" width="100px;" alt=""/>
+ <br />
+</a>
+<pre>Made with ❤️ by 
+<a href="gsdeveloper.github.io">Guilherme Samuel</a></pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👋🏽 Feel free to talk with me!
 
-### `yarn eject`
+[![Linkedin Badge](https://img.shields.io/badge/-Guilherme%20Samuel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-samuel-2aa7aa19b/)](https://www.linkedin.com/in/guilherme-samuel-2aa7aa19b/)
+[![Gmail Badge](https://img.shields.io/badge/-gsdevelopercontact@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:gsdevelopercontact@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-gsdeveloper-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/gsdeveloper)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# decimal-to-binary
-App that converts a decimal number to binary or binary to decimal.
->>>>>>> 9c914fe3e6893cd9719c76d4bb0e15364e1ea4b6
+[MIT](https://github.com/gsdeveloper/decimal-to-binary/blob/master/README.md)
