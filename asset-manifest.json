@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/decimal-to-binary/static/css/main.ebeb702e.chunk.css",
+    "main.js": "/decimal-to-binary/static/js/main.ba1e41d2.chunk.js",
+    "main.js.map": "/decimal-to-binary/static/js/main.ba1e41d2.chunk.js.map",
+    "runtime-main.js": "/decimal-to-binary/static/js/runtime-main.6b38902a.js",
+    "runtime-main.js.map": "/decimal-to-binary/static/js/runtime-main.6b38902a.js.map",
+    "static/js/2.86921b9b.chunk.js": "/decimal-to-binary/static/js/2.86921b9b.chunk.js",
+    "static/js/2.86921b9b.chunk.js.map": "/decimal-to-binary/static/js/2.86921b9b.chunk.js.map",
+    "static/js/3.062d8f6d.chunk.js": "/decimal-to-binary/static/js/3.062d8f6d.chunk.js",
+    "static/js/3.062d8f6d.chunk.js.map": "/decimal-to-binary/static/js/3.062d8f6d.chunk.js.map",
+    "index.html": "/decimal-to-binary/index.html",
+    "static/css/main.ebeb702e.chunk.css.map": "/decimal-to-binary/static/css/main.ebeb702e.chunk.css.map",
+    "static/js/2.86921b9b.chunk.js.LICENSE.txt": "/decimal-to-binary/static/js/2.86921b9b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b38902a.js",
+    "static/js/2.86921b9b.chunk.js",
+    "static/css/main.ebeb702e.chunk.css",
+    "static/js/main.ba1e41d2.chunk.js"
+  ]
+}
